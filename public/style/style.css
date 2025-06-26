@@ -123,7 +123,7 @@ nav ul li{
 }
 #second_sec article{
     width: 90%;
-    max-width: 420px;
+    max-width: 397px;
     min-height: 200px;
     border-radius: 20px;
     padding: 1.3rem;
@@ -256,8 +256,3 @@ footer{
 @media (min-width: 1280px) {
 }
 
-@media (min-width: 1440px) {
-     #second_sec{
-        justify-content: flex-start;
-    }
-}
