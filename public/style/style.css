@@ -36,6 +36,7 @@ body{
     display: flex;
     flex-direction: column;
     background-image: var(--gradient-light);
+    background-size: cover;
     background-attachment: fixed;
     font-family: var(--font);
 }
@@ -226,6 +227,9 @@ footer{
 .modoEscuro #second_sec article h2,.modoEscuro #second_sec article .remove{
     color: var(--color8);
 }
+.modoEscuro .icon1{
+    color: var(--color9) !important;
+}
 .modoEscuro #second_sec article p{
     color: var(--color5);
 }
@@ -234,6 +238,9 @@ footer{
 }
 .cardRemovido{
     background-color: var(--color7)!important;
+}
+.modoEscuro .cardRemovido{
+    background-color: var(--color3) !important;
 }
 @media (min-width:674px){
     #first_sec{

@@ -11,7 +11,7 @@
     "name": "StyleSpy",
     "description": "Instantly analyze and copy CSS from any webpage element.",
     "isActive": true,
-    "remove": false
+    "remove": true
   },
   {
     "logo": "./images/logo-speed-boost.svg",
