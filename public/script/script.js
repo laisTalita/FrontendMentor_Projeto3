@@ -19,7 +19,10 @@ function dados() {
        res.forEach(element => {
 
         let article = document.createElement('article')
+
+        article.dataset.isActive= element.isActive
         let info = document.createElement('div')
+
         info.className='info'
         let img = document.createElement('img')
         img.src = element.logo
@@ -64,6 +67,8 @@ function dados() {
 
         div_icons.addEventListener('click',()=>{
             element.isActive = !element.isActive
+            article.dataset.isActive=element.isActive
+            
             if (icon1.classList.contains('oculto')) {
                 icon1.classList.remove('oculto')
                 icon2.classList.add('oculto')
